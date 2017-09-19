@@ -30,7 +30,6 @@
 }
 
 - (DDLScannerManager *)initWithView:(UIView *)view
-                      captureDelegate:(id<AVCaptureMetadataOutputObjectsDelegate>)captureDelegate
                 qrRecognitionDelegate:(id<QRRecognitionDelegate>)qrRecognitionDelegate {
     if (self) {
         self = [super init];
@@ -86,7 +85,7 @@
                                                    object:_session];
     }
 
-    [_output setMetadataObjectsDelegate:captureDelegate ? : self queue:_serialQueue];
+    [_output setMetadataObjectsDelegate:self queue:_serialQueue];
     _delegate = qrRecognitionDelegate;
     return self;
 }

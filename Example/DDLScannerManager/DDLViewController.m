@@ -18,7 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _scanner = [[DDLScannerManager alloc] initWithView:self.view
-                                       captureDelegate:_scanner
                                  qrRecognitionDelegate:self];
 }
     
