@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "DDLScannerManager.h"
 
 FOUNDATION_EXPORT double DDLScannerManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char DDLScannerManagerVersionString[];

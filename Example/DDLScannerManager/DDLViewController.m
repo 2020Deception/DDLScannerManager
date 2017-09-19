@@ -7,23 +7,23 @@
 //
 
 #import "DDLViewController.h"
+#import "DDLScannerManager.h"
 
-@interface DDLViewController ()
-
+@interface DDLViewController () <QRRecognitionDelegate>
+@property (nonatomic, readonly) DDLScannerManager *scanner;
 @end
 
 @implementation DDLViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    _scanner = [[DDLScannerManager alloc] initWithView:self.view
+                                       captureDelegate:_scanner
+                                 qrRecognitionDelegate:self];
 }
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+- (void)didScanQRCodeReturningDLScannedLicense:(DDLScannedLicense *)license {
+    NSLog(@"%@ %@", license.firstName, license.lastName);
 }
 
 @end

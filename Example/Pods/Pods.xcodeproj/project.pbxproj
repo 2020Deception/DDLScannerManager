@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1510FB531F71D8590019A214 /* DDLScannerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1510FB511F71D8590019A214 /* DDLScannerManager.h */; };
-		1510FB541F71D8590019A214 /* DDLScannerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1510FB521F71D8590019A214 /* DDLScannerManager.m */; };
-		25CC5105C8087878D756350F4D40C61C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		31821C1A3FAB0D400816A43B70A06A0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
 		51277275CE9561B53D91DE0F016CFE4F /* Pods-DDLScannerManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F44C14A7A4158AC05E867256A64ABD2 /* Pods-DDLScannerManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54B698D68840272573E2C6CE000A36C7 /* Pods-DDLScannerManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B122C66252DFEF142E8E800F54B0008 /* Pods-DDLScannerManager_Tests-dummy.m */; };
-		77D74C280F9663AE31FF28EB59351775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7ADD018C423B8BD751BDF2AD0F25C134 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8B7FCAAE9ADAAB07C65EAAD875184E02 /* DDLScannerManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC780CC4E59D2A8C63F8685E175341F /* DDLScannerManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77D74C280F9663AE31FF28EB59351775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+		7ADD018C423B8BD751BDF2AD0F25C134 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */; };
+		7ECA6493B4C423685850D66A33DCC8B7 /* DDLScannerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 427D6B4A20A7863D22B182A602AD6BD1 /* DDLScannerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		842B77785C106360B11780117F5F5397 /* DDLScannerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD9D9F4C93578BAE2D8CF8C0FC7B471 /* DDLScannerManager.m */; };
+		8A407D03488E21B79C940FF895D7E93B /* DDLScannerManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD62BCC41A153D245ACEFA1B06CEF592 /* DDLScannerManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B24D2C3C9BB0366983A9ACC1F2D10ACB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */; };
 		D94761569DFCBF21F32F3B8C0EA1862C /* Pods-DDLScannerManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D70FF7C25975EECFB7005029A44006F /* Pods-DDLScannerManager_Example-dummy.m */; };
+		DC19A0A8E3A08331932CCAC70C9CEFAA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */; };
+		DF63807453944AEB8DB3E46BE48B7171 /* DDLScannerManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDE9F22DF5D8198331064FD49E1C0EC /* DDLScannerManager-dummy.m */; };
 		E3F559357F60CE8E596C56E10062EF9F /* Pods-DDLScannerManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FA4E828B2EA1DFE044701A3F9DD7AF9 /* Pods-DDLScannerManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F49A627028B6D3AD552CAF52B769A7A4 /* DDLScannerManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB39238D9E99B255883E3362F6E9A2E /* DDLScannerManager-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,56 +27,50 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CA85EAE34E5E97D3EDE169F3ACC325CC;
+			remoteGlobalIDString = 32C50EE59B51C24CEC94DABE2540B0A0;
 			remoteInfo = DDLScannerManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EC780CC4E59D2A8C63F8685E175341F /* DDLScannerManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDLScannerManager-umbrella.h"; sourceTree = "<group>"; };
-		1510FB511F71D8590019A214 /* DDLScannerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDLScannerManager.h; path = DDLScannerManager/Classes/DDLScannerManager.h; sourceTree = "<group>"; };
-		1510FB521F71D8590019A214 /* DDLScannerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDLScannerManager.m; path = DDLScannerManager/Classes/DDLScannerManager.m; sourceTree = "<group>"; };
-		190C05EFB842188C064F8E3E3159802D /* Pods_DDLScannerManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDLScannerManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01248BBE355A62EDD965B24CA0581C97 /* DDLScannerManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDLScannerManager.xcconfig; sourceTree = "<group>"; };
+		15B01837476B71E9DF21397B633DA376 /* DDLScannerManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDLScannerManager-prefix.pch"; sourceTree = "<group>"; };
+		190C05EFB842188C064F8E3E3159802D /* Pods_DDLScannerManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DDLScannerManager_Tests.framework; path = "Pods-DDLScannerManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27785E2D96535B6FD6FDAEFC4D268E84 /* Pods-DDLScannerManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDLScannerManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2BD8D16746174CA71F140E7EFE2CBAEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30921800E0BF81CA369CAEFEFD1522EA /* Pods-DDLScannerManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDLScannerManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		30EF1BC1EEF392081B32000C58D910EA /* Pods-DDLScannerManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDLScannerManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3EB39238D9E99B255883E3362F6E9A2E /* DDLScannerManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDLScannerManager-dummy.m"; sourceTree = "<group>"; };
+		427D6B4A20A7863D22B182A602AD6BD1 /* DDLScannerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLScannerManager.h; path = DDLScannerManager/Classes/DDLScannerManager.h; sourceTree = "<group>"; };
 		4F8E16334614E5BBCD21972218C67F6C /* Pods-DDLScannerManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDLScannerManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4FA4E828B2EA1DFE044701A3F9DD7AF9 /* Pods-DDLScannerManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDLScannerManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5534E1470874C2F4BE6CFBA9994719C8 /* Pods_DDLScannerManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDLScannerManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F36D3F1223F736249CCAC3488A56DA7 /* DDLScannerManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DDLScannerManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5534E1470874C2F4BE6CFBA9994719C8 /* Pods_DDLScannerManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DDLScannerManager_Example.framework; path = "Pods-DDLScannerManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F36D3F1223F736249CCAC3488A56DA7 /* DDLScannerManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DDLScannerManager.framework; path = DDLScannerManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		6D70FF7C25975EECFB7005029A44006F /* Pods-DDLScannerManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDLScannerManager_Example-dummy.m"; sourceTree = "<group>"; };
 		6F511B8EAA67C904A59EFB1145E425E1 /* Pods-DDLScannerManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDLScannerManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6FBC041762B237E5B0BFF76E8471DF91 /* DDLScannerManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DDLScannerManager.modulemap; sourceTree = "<group>"; };
 		7065C15A7B2568318ECCA135F3A78D29 /* Pods-DDLScannerManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDLScannerManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7F44C14A7A4158AC05E867256A64ABD2 /* Pods-DDLScannerManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDLScannerManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		819027466BCEC86E113569DDCED8D2C1 /* Pods-DDLScannerManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DDLScannerManager_Tests.modulemap"; sourceTree = "<group>"; };
+		819027466BCEC86E113569DDCED8D2C1 /* Pods-DDLScannerManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DDLScannerManager_Tests.modulemap"; sourceTree = "<group>"; };
 		8B122C66252DFEF142E8E800F54B0008 /* Pods-DDLScannerManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDLScannerManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		8C92D301A4B46463E2E8302CF1DF3A4B /* DDLScannerManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DDLScannerManager.modulemap; sourceTree = "<group>"; };
 		8E6F536C3EBEDB6D3AD26E6138522A1B /* Pods-DDLScannerManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDLScannerManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8EC46826B6BBDE4ACC172E76BC7C520F /* Pods-DDLScannerManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DDLScannerManager_Example.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8EC46826B6BBDE4ACC172E76BC7C520F /* Pods-DDLScannerManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DDLScannerManager_Example.modulemap"; sourceTree = "<group>"; };
+		8EDE9F22DF5D8198331064FD49E1C0EC /* DDLScannerManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDLScannerManager-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9516356A0FA97D725AA3DB7601EA23E3 /* Pods-DDLScannerManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDLScannerManager_Tests-resources.sh"; sourceTree = "<group>"; };
 		A433E7026BF682364BA26832331DA2FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD92F9BF3D348E2C71C6A2A38AB3571F /* DDLScannerManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDLScannerManager-prefix.pch"; sourceTree = "<group>"; };
 		B65268724EAF470C9B1DF759B8FFF6F3 /* Pods-DDLScannerManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDLScannerManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C5D9D4EB28A420DDADF1F6B31861E518 /* DDLScannerManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDLScannerManager.xcconfig; sourceTree = "<group>"; };
+		CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CFDE4F687621886266DAFBAAD5E6D83B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1E38DC662544EE773FCA804B27297D9 /* Pods-DDLScannerManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDLScannerManager_Example-resources.sh"; sourceTree = "<group>"; };
 		D4C2DABDAFDD1FBADA1D0A0C80042CCC /* Pods-DDLScannerManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDLScannerManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D5611539B37EE3C1AA54545F3ADCBC54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD9D9F4C93578BAE2D8CF8C0FC7B471 /* DDLScannerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLScannerManager.m; path = DDLScannerManager/Classes/DDLScannerManager.m; sourceTree = "<group>"; };
 		F944ED0A55F051172B71E31573C776AA /* Pods-DDLScannerManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDLScannerManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		FD62BCC41A153D245ACEFA1B06CEF592 /* DDLScannerManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDLScannerManager-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4D148B7EEC0AAB66629E6FC206AC204E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25CC5105C8087878D756350F4D40C61C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C1A5024BBB0CAD3F0E7A0A1F9E928A81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,9 +87,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E049AD5998B8401F2CCB59EC61EBC5FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC19A0A8E3A08331932CCAC70C9CEFAA /* AVFoundation.framework in Frameworks */,
+				31821C1A3FAB0D400816A43B70A06A0D /* Foundation.framework in Frameworks */,
+				B24D2C3C9BB0366983A9ACC1F2D10ACB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				715827B6A84C2549CD0FBA09A28FA485 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		246472AEF552BD93919D69EEACA0AE40 /* DDLScannerManager */ = {
+			isa = PBXGroup;
+			children = (
+				427D6B4A20A7863D22B182A602AD6BD1 /* DDLScannerManager.h */,
+				DFD9D9F4C93578BAE2D8CF8C0FC7B471 /* DDLScannerManager.m */,
+				BBAB8BB8553AAB6BA314CF3C6833EE24 /* Support Files */,
+			);
+			name = DDLScannerManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		2BFDE834FE8DEB296373F2E15CE5C072 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,18 +128,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6588A5D9AA8AD77A43AE8E4790CC21A7 /* Support Files */ = {
+		5EBABD44809105AFA09BF1D02B271CDC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6FBC041762B237E5B0BFF76E8471DF91 /* DDLScannerManager.modulemap */,
-				C5D9D4EB28A420DDADF1F6B31861E518 /* DDLScannerManager.xcconfig */,
-				3EB39238D9E99B255883E3362F6E9A2E /* DDLScannerManager-dummy.m */,
-				AD92F9BF3D348E2C71C6A2A38AB3571F /* DDLScannerManager-prefix.pch */,
-				0EC780CC4E59D2A8C63F8685E175341F /* DDLScannerManager-umbrella.h */,
-				2BD8D16746174CA71F140E7EFE2CBAEF /* Info.plist */,
+				246472AEF552BD93919D69EEACA0AE40 /* DDLScannerManager */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DDLScannerManager";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		715827B6A84C2549CD0FBA09A28FA485 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FD3A287BB87F4D3C474EC576926A0F89 /* AVFoundation.framework */,
+				CB87367D9B5B48A3CBB2B5DFD7573959 /* Foundation.framework */,
+				63C4BD65EEF247D4C8A723C0F18B326C /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7C6D8FCF9A31D68152B9131F119B0F01 /* Pods-DDLScannerManager_Example */ = {
@@ -139,19 +168,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				95B4DC29FC9A21D6A627AE9D260B9DB8 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5EBABD44809105AFA09BF1D02B271CDC /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				AE1534F623A8514418A6CB2A5CFBBD7F /* Products */,
 				2BFDE834FE8DEB296373F2E15CE5C072 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		95B4DC29FC9A21D6A627AE9D260B9DB8 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C643BF7E317BC26FB79C88F3C13BFB37 /* DDLScannerManager */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		AE1534F623A8514418A6CB2A5CFBBD7F /* Products */ = {
@@ -164,31 +185,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		BBAB8BB8553AAB6BA314CF3C6833EE24 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				8C92D301A4B46463E2E8302CF1DF3A4B /* DDLScannerManager.modulemap */,
+				01248BBE355A62EDD965B24CA0581C97 /* DDLScannerManager.xcconfig */,
+				8EDE9F22DF5D8198331064FD49E1C0EC /* DDLScannerManager-dummy.m */,
+				15B01837476B71E9DF21397B633DA376 /* DDLScannerManager-prefix.pch */,
+				FD62BCC41A153D245ACEFA1B06CEF592 /* DDLScannerManager-umbrella.h */,
+				D5611539B37EE3C1AA54545F3ADCBC54 /* Info.plist */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C643BF7E317BC26FB79C88F3C13BFB37 /* DDLScannerManager */ = {
-			isa = PBXGroup;
-			children = (
-				1510FB511F71D8590019A214 /* DDLScannerManager.h */,
-				1510FB521F71D8590019A214 /* DDLScannerManager.m */,
-				6588A5D9AA8AD77A43AE8E4790CC21A7 /* Support Files */,
-			);
-			name = DDLScannerManager;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DDLScannerManager";
 			sourceTree = "<group>";
 		};
 		E9FA0AC155080A9FA5DE57AE366BA3F3 /* Pods-DDLScannerManager_Tests */ = {
@@ -220,6 +228,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		15CFF0A6130679E3BDA582E041E79CB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A407D03488E21B79C940FF895D7E93B /* DDLScannerManager-umbrella.h in Headers */,
+				7ECA6493B4C423685850D66A33DCC8B7 /* DDLScannerManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67C67C65EC6ADDD2A44D9B50DC98CB78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,18 +245,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5891F84BFEDD1AF4C5573C1AC8D194B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1510FB531F71D8590019A214 /* DDLScannerManager.h in Headers */,
-				8B7FCAAE9ADAAB07C65EAAD875184E02 /* DDLScannerManager-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		32C50EE59B51C24CEC94DABE2540B0A0 /* DDLScannerManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C635D9EFBF9EAE8B8D247B259096A5 /* Build configuration list for PBXNativeTarget "DDLScannerManager" */;
+			buildPhases = (
+				9835061A5B4B379D24547A9AFF90BEDC /* Sources */,
+				E049AD5998B8401F2CCB59EC61EBC5FC /* Frameworks */,
+				15CFF0A6130679E3BDA582E041E79CB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDLScannerManager;
+			productName = DDLScannerManager;
+			productReference = 5F36D3F1223F736249CCAC3488A56DA7 /* DDLScannerManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		5C771EA25BF7BD13D74BD64E19550919 /* Pods-DDLScannerManager_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31491D6D0EB368D2CD5B8F87BC8BD1AA /* Build configuration list for PBXNativeTarget "Pods-DDLScannerManager_Example" */;
@@ -275,23 +300,6 @@
 			productReference = 190C05EFB842188C064F8E3E3159802D /* Pods_DDLScannerManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CA85EAE34E5E97D3EDE169F3ACC325CC /* DDLScannerManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 91E3AE3223D481CDBD63907B73809890 /* Build configuration list for PBXNativeTarget "DDLScannerManager" */;
-			buildPhases = (
-				D3A650D89A3B3740362077BBD28CCB8F /* Sources */,
-				4D148B7EEC0AAB66629E6FC206AC204E /* Frameworks */,
-				C5891F84BFEDD1AF4C5573C1AC8D194B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DDLScannerManager;
-			productName = DDLScannerManager;
-			productReference = 5F36D3F1223F736249CCAC3488A56DA7 /* DDLScannerManager.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -313,7 +321,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA85EAE34E5E97D3EDE169F3ACC325CC /* DDLScannerManager */,
+				32C50EE59B51C24CEC94DABE2540B0A0 /* DDLScannerManager */,
 				5C771EA25BF7BD13D74BD64E19550919 /* Pods-DDLScannerManager_Example */,
 				A1CD8C1449171CAD7F912A1A05C534FA /* Pods-DDLScannerManager_Tests */,
 			);
@@ -321,6 +329,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9835061A5B4B379D24547A9AFF90BEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF63807453944AEB8DB3E46BE48B7171 /* DDLScannerManager-dummy.m in Sources */,
+				842B77785C106360B11780117F5F5397 /* DDLScannerManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A0E9A03174BD1765A05ED7DE7C5090CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,22 +354,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3A650D89A3B3740362077BBD28CCB8F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F49A627028B6D3AD552CAF52B769A7A4 /* DDLScannerManager-dummy.m in Sources */,
-				1510FB541F71D8590019A214 /* DDLScannerManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		9FC8525DC8240CCD994D7EB495374F66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DDLScannerManager;
-			target = CA85EAE34E5E97D3EDE169F3ACC325CC /* DDLScannerManager */;
+			target = 32C50EE59B51C24CEC94DABE2540B0A0 /* DDLScannerManager */;
 			targetProxy = B466C3D083F10AD81F6B2BC14B7A9578 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,39 +438,6 @@
 			};
 			name = Debug;
 		};
-		6A4F350BE5E6153C9C088E1F782F8ACB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5D9D4EB28A420DDADF1F6B31861E518 /* DDLScannerManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DDLScannerManager/DDLScannerManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DDLScannerManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DDLScannerManager/DDLScannerManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DDLScannerManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -507,16 +482,16 @@
 			};
 			name = Release;
 		};
-		7B610A4BB530AC5DB8931FF37B963B95 /* Debug */ = {
+		88B37DD4910D11CF491BCDF7FE0DCB0B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5D9D4EB28A420DDADF1F6B31861E518 /* DDLScannerManager.xcconfig */;
+			baseConfigurationReference = 01248BBE355A62EDD965B24CA0581C97 /* DDLScannerManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -529,7 +504,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DDLScannerManager/DDLScannerManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = DDLScannerManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -538,7 +513,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -625,6 +600,39 @@
 			};
 			name = Release;
 		};
+		D7EBB85E4FA6238B82A749418CD2535C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01248BBE355A62EDD965B24CA0581C97 /* DDLScannerManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DDLScannerManager/DDLScannerManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDLScannerManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DDLScannerManager/DDLScannerManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DDLScannerManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		DC9F60F3CF7B4E9EB609AAC310FA6F76 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 30EF1BC1EEF392081B32000C58D910EA /* Pods-DDLScannerManager_Example.release.xcconfig */;
@@ -691,11 +699,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91E3AE3223D481CDBD63907B73809890 /* Build configuration list for PBXNativeTarget "DDLScannerManager" */ = {
+		B3C635D9EFBF9EAE8B8D247B259096A5 /* Build configuration list for PBXNativeTarget "DDLScannerManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B610A4BB530AC5DB8931FF37B963B95 /* Debug */,
-				6A4F350BE5E6153C9C088E1F782F8ACB /* Release */,
+				D7EBB85E4FA6238B82A749418CD2535C /* Debug */,
+				88B37DD4910D11CF491BCDF7FE0DCB0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

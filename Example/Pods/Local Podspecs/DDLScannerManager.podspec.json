@@ -1,8 +1,8 @@
 {
   "name": "DDLScannerManager",
   "version": "0.1.0",
-  "summary": "A short description of DDLScannerManager.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Allows you to scan Driver License barcodes and return relevent data.",
+  "description": "Spin up an instance of DLScannerManager. Once the camera is displaying, scan the license.\nAll relevent data will be returned in the callback.",
   "homepage": "https://github.com/2020deception/DDLScannerManager",
   "license": {
     "type": "MIT",
@@ -15,8 +15,14 @@
     "git": "https://github.com/2020deception/DDLScannerManager.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/2020deception",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DDLScannerManager/Classes/**/*"
+  "source_files": "DDLScannerManager/Classes/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AVFoundation"
+  ]
 }
