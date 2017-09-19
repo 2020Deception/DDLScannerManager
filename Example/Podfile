@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DDLScannerManager_Example' do
+  pod 'DDLScannerManager', :path => '../'
+
+  target 'DDLScannerManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
