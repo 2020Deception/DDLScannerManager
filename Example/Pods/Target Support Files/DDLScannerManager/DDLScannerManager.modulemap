@@ -1,0 +1,6 @@
+framework module DDLScannerManager {
+  umbrella header "DDLScannerManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

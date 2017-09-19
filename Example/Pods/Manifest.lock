@@ -1,0 +1,16 @@
+PODS:
+  - DDLScannerManager (0.1.0)
+
+DEPENDENCIES:
+  - DDLScannerManager (from `../`)
+
+EXTERNAL SOURCES:
+  DDLScannerManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DDLScannerManager: 87dc95faedd61f5b542aedd2107f8c08ba3e5a1c
+
+PODFILE CHECKSUM: 70fd8f0d5490c2a7e1508c736d2b9fa9ecd75727
+
+COCOAPODS: 1.3.1
