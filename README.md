@@ -9,6 +9,30 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+To use this pod in your project, here is a quick example:
+```
+@interface DDLViewController () <QRRecognitionDelegate>
+@property (nonatomic, readonly) DDLScannerManager *scanner;
+@end
+
+@implementation DDLViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    _scanner = [[DDLScannerManager alloc] initWithView:self.view
+                                 qrRecognitionDelegate:self];
+}
+    
+- (void)didScanQRCodeReturningDLScannedLicense:(DDLScannedLicense *)license {
+    NSLog(@"%@ %@", license.firstName, license.lastName);
+}
+
+@end
+```
+
+this will present a full screen camera view which will scan your code and return the result in the 
+```QRRecognitionDelegate``` callback.
+
 ## Requirements
 
 ## Installation
